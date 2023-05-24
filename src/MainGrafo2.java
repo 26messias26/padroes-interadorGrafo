@@ -84,16 +84,16 @@ public class MainGrafo2 {
 			 IteradorDFS<String> iteradorDFS = g.createIteradorDFS("6");
 			 
 			 while(iteradorDFS.hasNext()){
-				Vertice<String> v = iteradorDFS.next();
-				System.out.println(v);
+				Vertice<String> vertice = iteradorDFS.next();
+				System.out.println(vertice);
 			}
 			 
 			 System.out.println("Iteração BFS");
 			 IteradorBFS<String> iteradorBFS = g.createIteradorBFS("6");
 			 
 			 while(iteradorBFS.hasNext()){
-				Vertice<String> v = iteradorBFS.next();
-				System.out.println(v);
+				Vertice<String> vertice = iteradorBFS.next();
+				System.out.println(vertice);
 			}
 			  			 
 		 } 
